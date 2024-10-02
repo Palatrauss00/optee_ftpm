@@ -1,0 +1,59 @@
+out/platform/NvAdmin.o: platform/NvAdmin.c platform/include/Admin.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/stdint.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/features.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/features-time64.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/timesize.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/long-double.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/time64.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/wchar.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/stdint-intn.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/stdint-uintn.h \
+ /home/palatrauss/optee_with_ftpm_ta/optee_os/out/arm/export-ta_arm32/include/trace.h \
+ /home/palatrauss/optee_with_ftpm_ta/optee_os/out/arm/export-ta_arm32/include/compiler.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include/stdarg.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include/stdbool.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include/stddef.h \
+ /home/palatrauss/optee_with_ftpm_ta/optee_os/out/arm/export-ta_arm32/include/trace_levels.h \
+ TPMCmd/tpm/include/swap.h reference/include/TpmProfile.h \
+ reference/include/RuntimeSupport.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/stdio.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/types/__fpos_t.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/types/__mbstate_t.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/types/__fpos64_t.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/types/__FILE.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/types/FILE.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/types/struct_FILE.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/floatn.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/floatn-common.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/stdio2-decl.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/stdio2.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/string.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/types/locale_t.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/types/__locale_t.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/strings.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/strings_fortified.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/string_fortified.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/unistd.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/posix_opt.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/environments.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/confname.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/getopt_posix.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/getopt_core.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/unistd.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/unistd_ext.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/ctype.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/libc/usr/include/bits/endianness.h \
+ TPMCmd/tpm/include/TpmBuildSwitches.h \
+ TPMCmd/tpm/include/CompilerDependencies.h TPMCmd/tpm/include/BaseTypes.h \
+ TPMCmd/tpm/include/TPMB.h reference/include/TpmSal.h \
+ TPMCmd/tpm/include/TpmError.h

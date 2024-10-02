@@ -1,0 +1,20 @@
+tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.o: \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/tee-supplicant/src/sha2.c \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdc-predef.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/string.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/libc-header-start.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/features.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/features-time64.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/timesize.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/long-double.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h \
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include/stddef.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/types/locale_t.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/types/__locale_t.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/strings.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/strings_fortified.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/string_fortified.h \
+ /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/tee-supplicant/src/sha2.h

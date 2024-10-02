@@ -1,0 +1,786 @@
+The target system is: Buildroot - 1 - armv7l
+The host system is: Linux - 5.15.146.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2;-g0;-D_FORTIFY_SOURCE=1
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60bf2/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_60bf2.dir/build.make CMakeFiles/cmTC_60bf2.dir/build
+make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60bf2.dir/CMakeCCompilerABI.c.o
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG   -v -o CMakeFiles/cmTC_60bf2.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/palatrauss/optee/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc
+Target: arm-none-linux-gnueabihf
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/'
+ /home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/cc1 -quiet -v -iprefix /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/ -isysroot ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D _FORTIFY_SOURCE=1 -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7e2a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mabi=aapcs-linux -mfpu=vfpv3-d16 -mthumb -mfloat-abi=hard -mcpu=cortex-a15 -mtls-dialect=gnu -mlibarch=armv7ve+vfpv3-d16 -march=armv7ve+vfpv3-d16 -g0 -O2 -version -fdiagnostics-color=always -fstack-protector-strong -fPIE -o /tmp/ccbxRGdb.s
+GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include"
+ignoring nonexistent directory "../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"
+ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed"
+ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include
+ ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4efa7baa5d2d62fda2fd9d00f53cfabb
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/'
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o /tmp/ccbxRGdb.s
+GNU assembler version 2.38 (arm-none-linux-gnueabihf) using BFD version (Arm GNU Toolchain 11.3.Rel1) 2.38.20220708
+COMPILER_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_60bf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60bf2.dir/link.txt --verbose=1
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG  -v CMakeFiles/cmTC_60bf2.dir/CMakeCCompilerABI.c.o -o cmTC_60bf2 
+Using built-in specs.
+COLLECT_GCC=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper
+Target: arm-none-linux-gnueabihf
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) 
+COMPILER_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_60bf2' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'cmTC_60bf2.'
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/collect2 -plugin /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnudYtN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_60bf2 /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1 -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_60bf2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_60bf2' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'cmTC_60bf2.'
+make[4]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include]
+    add: [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed]
+    add: [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include]
+    add: [../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include] ==> [/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include]
+  collapse include dir [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed] ==> [/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed]
+  collapse include dir [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include] ==> [/home/palatrauss/optee/toolchains/aarch32/arm-none-linux-gnueabihf/include]
+  collapse relative include dir [../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include] ==> [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include;/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed;/home/palatrauss/optee/toolchains/aarch32/arm-none-linux-gnueabihf/include;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_60bf2/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_60bf2.dir/build.make CMakeFiles/cmTC_60bf2.dir/build]
+  ignore line: [make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_60bf2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG   -v -o CMakeFiles/cmTC_60bf2.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/palatrauss/optee/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/']
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/cc1 -quiet -v -iprefix /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/ -isysroot ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D _FORTIFY_SOURCE=1 -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7e2a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mabi=aapcs-linux -mfpu=vfpv3-d16 -mthumb -mfloat-abi=hard -mcpu=cortex-a15 -mtls-dialect=gnu -mlibarch=armv7ve+vfpv3-d16 -march=armv7ve+vfpv3-d16 -g0 -O2 -version -fdiagnostics-color=always -fstack-protector-strong -fPIE -o /tmp/ccbxRGdb.s]
+  ignore line: [GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include"]
+  ignore line: [ignoring nonexistent directory "../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include]
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed]
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include]
+  ignore line: [ ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4efa7baa5d2d62fda2fd9d00f53cfabb]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/']
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o /tmp/ccbxRGdb.s]
+  ignore line: [GNU assembler version 2.38 (arm-none-linux-gnueabihf) using BFD version (Arm GNU Toolchain 11.3.Rel1) 2.38.20220708]
+  ignore line: [COMPILER_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_60bf2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60bf2.dir/link.txt --verbose=1]
+  ignore line: [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG  -v CMakeFiles/cmTC_60bf2.dir/CMakeCCompilerABI.c.o -o cmTC_60bf2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) ]
+  ignore line: [COMPILER_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_60bf2' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'cmTC_60bf2.']
+  link line: [ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/collect2 -plugin /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnudYtN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_60bf2 /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1 -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_60bf2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnudYtN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_60bf2] ==> ignore
+    arg [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1] ==> dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc] ==> dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib] ==> dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_60bf2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  collapse obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o]
+  collapse obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/lib]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/lib;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fcc9e/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_fcc9e.dir/build.make CMakeFiles/cmTC_fcc9e.dir/build
+make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcc9e.dir/CheckIncludeFile.c.o
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG -o CMakeFiles/cmTC_fcc9e.dir/CheckIncludeFile.c.o -c /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fcc9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcc9e.dir/link.txt --verbose=1
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG CMakeFiles/cmTC_fcc9e.dir/CheckIncludeFile.c.o -o cmTC_fcc9e 
+make[4]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a204f/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a204f.dir/build.make CMakeFiles/cmTC_a204f.dir/build
+make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a204f.dir/src.c.o
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG -o CMakeFiles/cmTC_a204f.dir/src.c.o -c /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a204f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a204f.dir/link.txt --verbose=1
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG CMakeFiles/cmTC_a204f.dir/src.c.o -o cmTC_a204f 
+make[4]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Buildroot - 1 - armv7l
+The host system is: Linux - 5.15.146.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2;-g0;-D_FORTIFY_SOURCE=1
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1458b/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_1458b.dir/build.make CMakeFiles/cmTC_1458b.dir/build
+make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1458b.dir/CMakeCCompilerABI.c.o
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG   -v -o CMakeFiles/cmTC_1458b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/palatrauss/optee/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc
+Target: arm-none-linux-gnueabihf
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/'
+ /home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/cc1 -quiet -v -iprefix /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/ -isysroot ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D _FORTIFY_SOURCE=1 -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7e2a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mabi=aapcs-linux -mfpu=vfpv3-d16 -mthumb -mfloat-abi=hard -mcpu=cortex-a15 -mtls-dialect=gnu -mlibarch=armv7ve+vfpv3-d16 -march=armv7ve+vfpv3-d16 -g0 -O2 -version -fdiagnostics-color=always -fstack-protector-strong -fPIE -o /tmp/ccbxRGdb.s
+GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include"
+ignoring nonexistent directory "../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"
+ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed"
+ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include
+ ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4efa7baa5d2d62fda2fd9d00f53cfabb
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/'
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o /tmp/ccbxRGdb.s
+GNU assembler version 2.38 (arm-none-linux-gnueabihf) using BFD version (Arm GNU Toolchain 11.3.Rel1) 2.38.20220708
+COMPILER_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_1458b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1458b.dir/link.txt --verbose=1
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG  -v CMakeFiles/cmTC_1458b.dir/CMakeCCompilerABI.c.o -o cmTC_1458b 
+Using built-in specs.
+COLLECT_GCC=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper
+Target: arm-none-linux-gnueabihf
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) 
+COMPILER_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_1458b' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'cmTC_1458b.'
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/collect2 -plugin /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp7rbJH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_1458b /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1 -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_1458b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_1458b' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'cmTC_1458b.'
+make[4]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include]
+    add: [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed]
+    add: [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include]
+    add: [../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include] ==> [/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include]
+  collapse include dir [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed] ==> [/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed]
+  collapse include dir [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include] ==> [/home/palatrauss/optee/toolchains/aarch32/arm-none-linux-gnueabihf/include]
+  collapse relative include dir [../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include] ==> [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include;/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed;/home/palatrauss/optee/toolchains/aarch32/arm-none-linux-gnueabihf/include;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_1458b/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_1458b.dir/build.make CMakeFiles/cmTC_1458b.dir/build]
+  ignore line: [make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1458b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG   -v -o CMakeFiles/cmTC_1458b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/palatrauss/optee/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/']
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/cc1 -quiet -v -iprefix /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/ -isysroot ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D _FORTIFY_SOURCE=1 -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7e2a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mabi=aapcs-linux -mfpu=vfpv3-d16 -mthumb -mfloat-abi=hard -mcpu=cortex-a15 -mtls-dialect=gnu -mlibarch=armv7ve+vfpv3-d16 -march=armv7ve+vfpv3-d16 -g0 -O2 -version -fdiagnostics-color=always -fstack-protector-strong -fPIE -o /tmp/ccbxRGdb.s]
+  ignore line: [GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include"]
+  ignore line: [ignoring nonexistent directory "../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include]
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed]
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include]
+  ignore line: [ ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4efa7baa5d2d62fda2fd9d00f53cfabb]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/']
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o /tmp/ccbxRGdb.s]
+  ignore line: [GNU assembler version 2.38 (arm-none-linux-gnueabihf) using BFD version (Arm GNU Toolchain 11.3.Rel1) 2.38.20220708]
+  ignore line: [COMPILER_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_1458b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1458b.dir/link.txt --verbose=1]
+  ignore line: [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG  -v CMakeFiles/cmTC_1458b.dir/CMakeCCompilerABI.c.o -o cmTC_1458b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) ]
+  ignore line: [COMPILER_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_1458b' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'cmTC_1458b.']
+  link line: [ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/collect2 -plugin /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp7rbJH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_1458b /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1 -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_1458b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccp7rbJH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1458b] ==> ignore
+    arg [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1] ==> dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc] ==> dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib] ==> dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_1458b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  collapse obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o]
+  collapse obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/lib]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/lib;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f10f7/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f10f7.dir/build.make CMakeFiles/cmTC_f10f7.dir/build
+make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f10f7.dir/CheckIncludeFile.c.o
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG -o CMakeFiles/cmTC_f10f7.dir/CheckIncludeFile.c.o -c /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f10f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f10f7.dir/link.txt --verbose=1
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG CMakeFiles/cmTC_f10f7.dir/CheckIncludeFile.c.o -o cmTC_f10f7 
+make[4]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ba635/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ba635.dir/build.make CMakeFiles/cmTC_ba635.dir/build
+make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba635.dir/src.c.o
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG -o CMakeFiles/cmTC_ba635.dir/src.c.o -c /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ba635
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba635.dir/link.txt --verbose=1
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG CMakeFiles/cmTC_ba635.dir/src.c.o -o cmTC_ba635 
+make[4]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Buildroot - 1 - armv7l
+The host system is: Linux - 5.15.146.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2;-g0;-D_FORTIFY_SOURCE=1
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_886fc/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_886fc.dir/build.make CMakeFiles/cmTC_886fc.dir/build
+make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_886fc.dir/CMakeCCompilerABI.c.o
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG   -v -o CMakeFiles/cmTC_886fc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/palatrauss/optee/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc
+Target: arm-none-linux-gnueabihf
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/'
+ /home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/cc1 -quiet -v -iprefix /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/ -isysroot ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D _FORTIFY_SOURCE=1 -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7e2a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mabi=aapcs-linux -mfpu=vfpv3-d16 -mthumb -mfloat-abi=hard -mcpu=cortex-a15 -mtls-dialect=gnu -mlibarch=armv7ve+vfpv3-d16 -march=armv7ve+vfpv3-d16 -g0 -O2 -version -fdiagnostics-color=always -fstack-protector-strong -fPIE -o /tmp/ccbxRGdb.s
+GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include"
+ignoring nonexistent directory "../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"
+ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed"
+ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include
+ ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4efa7baa5d2d62fda2fd9d00f53cfabb
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/'
+ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o /tmp/ccbxRGdb.s
+GNU assembler version 2.38 (arm-none-linux-gnueabihf) using BFD version (Arm GNU Toolchain 11.3.Rel1) 2.38.20220708
+COMPILER_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_886fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_886fc.dir/link.txt --verbose=1
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG  -v CMakeFiles/cmTC_886fc.dir/CMakeCCompilerABI.c.o -o cmTC_886fc 
+Using built-in specs.
+COLLECT_GCC=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper
+Target: arm-none-linux-gnueabihf
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) 
+COMPILER_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_886fc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'cmTC_886fc.'
+ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/collect2 -plugin /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbsWHmu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_886fc /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1 -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_886fc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_886fc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'cmTC_886fc.'
+make[4]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include]
+    add: [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed]
+    add: [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include]
+    add: [../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include] ==> [/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include]
+  collapse include dir [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed] ==> [/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed]
+  collapse include dir [/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include] ==> [/home/palatrauss/optee/toolchains/aarch32/arm-none-linux-gnueabihf/include]
+  collapse relative include dir [../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include] ==> [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include;/home/palatrauss/optee/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed;/home/palatrauss/optee/toolchains/aarch32/arm-none-linux-gnueabihf/include;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_886fc/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_886fc.dir/build.make CMakeFiles/cmTC_886fc.dir/build]
+  ignore line: [make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_886fc.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG   -v -o CMakeFiles/cmTC_886fc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/palatrauss/optee/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/']
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/cc1 -quiet -v -iprefix /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/ -isysroot ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D _FORTIFY_SOURCE=1 -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7e2a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mabi=aapcs-linux -mfpu=vfpv3-d16 -mthumb -mfloat-abi=hard -mcpu=cortex-a15 -mtls-dialect=gnu -mlibarch=armv7ve+vfpv3-d16 -march=armv7ve+vfpv3-d16 -g0 -O2 -version -fdiagnostics-color=always -fstack-protector-strong -fPIE -o /tmp/ccbxRGdb.s]
+  ignore line: [GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include"]
+  ignore line: [ignoring nonexistent directory "../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include]
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/include-fixed]
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/include]
+  ignore line: [ ../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Arm GNU Toolchain 11.3.Rel1) version 11.3.1 20220712 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4efa7baa5d2d62fda2fd9d00f53cfabb]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/']
+  ignore line: [ /home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o /tmp/ccbxRGdb.s]
+  ignore line: [GNU assembler version 2.38 (arm-none-linux-gnueabihf) using BFD version (Arm GNU Toolchain 11.3.Rel1) 2.38.20220708]
+  ignore line: [COMPILER_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:../../../../per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-O2' '-g0' '-pie' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.o' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'CMakeFiles/cmTC_7e2a8.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_886fc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_886fc.dir/link.txt --verbose=1]
+  ignore line: [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG  -v CMakeFiles/cmTC_886fc.dir/CMakeCCompilerABI.c.o -o cmTC_886fc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-pkgversion='Arm GNU Toolchain 11.3.Rel1']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.1 20220712 (Arm GNU Toolchain 11.3.Rel1) ]
+  ignore line: [COMPILER_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/:/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=aapcs-linux' '-mfpu=vfpv3-d16' '-mthumb' '-fstack-protector-strong' '-mfloat-abi=hard' '-mcpu=cortex-a15' '-fPIE' '-pie' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-g0' '-D' '_FORTIFY_SOURCE=1' '-D' 'NDEBUG' '-v' '-o' 'cmTC_886fc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+vfpv3-d16' '-march=armv7ve+vfpv3-d16' '-dumpdir' 'cmTC_886fc.']
+  link line: [ /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/collect2 -plugin /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/liblto_plugin.so -plugin-opt=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbsWHmu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_886fc /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1 -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc -L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_886fc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o /home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../libexec/gcc/arm-none-linux-gnueabihf/11.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbsWHmu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_886fc] ==> ignore
+    arg [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1] ==> dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc] ==> dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib] ==> dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_886fc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o]
+    arg [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> obj [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  collapse obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o]
+  collapse obj [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/../../../../arm-none-linux-gnueabihf/lib] ==> [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/lib]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/Scrt1.o;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtbeginS.o;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1/crtendS.o;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc/arm-none-linux-gnueabihf/11.3.1;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/lib/gcc;/home/palatrauss/optee_with_ftpm_ta/toolchains/aarch32/arm-none-linux-gnueabihf/lib;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/lib;/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4df9e/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_4df9e.dir/build.make CMakeFiles/cmTC_4df9e.dir/build
+make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4df9e.dir/CheckIncludeFile.c.o
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG -o CMakeFiles/cmTC_4df9e.dir/CheckIncludeFile.c.o -c /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4df9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4df9e.dir/link.txt --verbose=1
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG CMakeFiles/cmTC_4df9e.dir/CheckIncludeFile.c.o -o cmTC_4df9e 
+make[4]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a5615/fast && make[3]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a5615.dir/build.make CMakeFiles/cmTC_a5615.dir/build
+make[4]: Entering directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5615.dir/src.c.o
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG -o CMakeFiles/cmTC_a5615.dir/src.c.o -c /home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a5615
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5615.dir/link.txt --verbose=1
+/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/bin/arm-linux-gnueabihf-gcc --sysroot=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/optee_client_ext/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g0 -D_FORTIFY_SOURCE=1   -DNDEBUG CMakeFiles/cmTC_a5615.dir/src.c.o -o cmTC_a5615 
+make[4]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/palatrauss/optee_with_ftpm_ta/out-br/build/optee_client_ext-1.0/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

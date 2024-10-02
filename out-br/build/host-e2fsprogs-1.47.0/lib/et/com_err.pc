@@ -1,0 +1,12 @@
+prefix=/home/palatrauss/optee_with_ftpm_ta/out-br/per-package/host-e2fsprogs/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: com_err
+Description: Common error description library
+Version: 1.47.0
+Requires:
+Cflags: -I${includedir}/et -I${includedir}
+Libs: -L${libdir} -lcom_err
+Libs.private: 

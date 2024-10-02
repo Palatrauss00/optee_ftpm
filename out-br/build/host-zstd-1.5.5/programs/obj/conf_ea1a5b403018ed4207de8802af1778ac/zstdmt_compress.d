@@ -1,0 +1,49 @@
+obj/conf_ea1a5b403018ed4207de8802af1778ac/zstdmt_compress.o: \
+ ../lib/compress/zstdmt_compress.c \
+ ../lib/compress/../common/allocations.h \
+ ../lib/compress/../common/zstd_deps.h ../lib/compress/../common/mem.h \
+ ../lib/compress/../common/compiler.h \
+ ../lib/compress/../common/portability_macros.h \
+ ../lib/compress/../common/debug.h ../lib/compress/../common/../zstd.h \
+ ../lib/compress/../common/zstd_deps.h ../lib/compress/../common/mem.h \
+ ../lib/compress/../common/pool.h ../lib/compress/../common/threading.h \
+ ../lib/compress/zstd_compress_internal.h \
+ ../lib/compress/../common/zstd_internal.h \
+ ../lib/compress/../common/cpu.h \
+ ../lib/compress/../common/error_private.h \
+ ../lib/compress/../common/../zstd_errors.h \
+ ../lib/compress/../common/fse.h ../lib/compress/../common/bitstream.h \
+ ../lib/compress/../common/bits.h ../lib/compress/../common/huf.h \
+ ../lib/compress/../common/xxhash.h \
+ ../lib/compress/../common/zstd_trace.h ../lib/compress/zstd_cwksp.h \
+ ../lib/compress/../common/portability_macros.h \
+ ../lib/compress/zstdmt_compress.h ../lib/compress/../zstd.h \
+ ../lib/compress/../common/bits.h ../lib/compress/zstd_ldm.h
+../lib/compress/../common/allocations.h:
+../lib/compress/../common/zstd_deps.h:
+../lib/compress/../common/mem.h:
+../lib/compress/../common/compiler.h:
+../lib/compress/../common/portability_macros.h:
+../lib/compress/../common/debug.h:
+../lib/compress/../common/../zstd.h:
+../lib/compress/../common/zstd_deps.h:
+../lib/compress/../common/mem.h:
+../lib/compress/../common/pool.h:
+../lib/compress/../common/threading.h:
+../lib/compress/zstd_compress_internal.h:
+../lib/compress/../common/zstd_internal.h:
+../lib/compress/../common/cpu.h:
+../lib/compress/../common/error_private.h:
+../lib/compress/../common/../zstd_errors.h:
+../lib/compress/../common/fse.h:
+../lib/compress/../common/bitstream.h:
+../lib/compress/../common/bits.h:
+../lib/compress/../common/huf.h:
+../lib/compress/../common/xxhash.h:
+../lib/compress/../common/zstd_trace.h:
+../lib/compress/zstd_cwksp.h:
+../lib/compress/../common/portability_macros.h:
+../lib/compress/zstdmt_compress.h:
+../lib/compress/../zstd.h:
+../lib/compress/../common/bits.h:
+../lib/compress/zstd_ldm.h:
