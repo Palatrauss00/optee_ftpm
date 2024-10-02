@@ -1,0 +1,4 @@
+toolchains/arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz filter=lfs diff=lfs merge=lfs -text
+toolchains/arm-gnu-toolchain-11.3.rel1-x86_64-arm-none-linux-gnueabihf.tar.xz filter=lfs diff=lfs merge=lfs -text
+toolchains/rust/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.81.0-stable filter=lfs diff=lfs merge=lfs -text
+toolchains/rust/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-3f4ebb066deec3c0.so filter=lfs diff=lfs merge=lfs -text
